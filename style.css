@@ -57,6 +57,7 @@ nav h1 {
 }
 nav h2 {
   font-size: 26px;
+  color:var(--Very-dark-blue);
 }
 nav h2,
 main .prices {
@@ -81,6 +82,10 @@ main p {
   margin: 25px 0 0px 5px;
   padding-right: 45px;
   line-height: 1.7;
+}
+main p,
+.prices :last-child {
+  color:var(--Dark-grayish-blue);
 }
 main .prices {
   margin: 20px 0;
